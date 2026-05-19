@@ -1,0 +1,217 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UrbanNest Realty</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">UrbanNest</div>
+
+    <ul class="nav-links">
+      <li><a href="#properties">Properties</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button class="nav-btn">Book Call</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <p class="tag">Luxury Real Estate</p>
+
+      <h1>
+        Find Your Perfect
+        Modern Home
+      </h1>
+
+      <p class="hero-text">
+        Premium apartments, villas and penthouses in prime locations.
+        Built for people who move fast and think bigger.
+      </p>
+
+      <div class="hero-buttons">
+        <button class="primary-btn">Explore Properties</button>
+        <button class="secondary-btn">Schedule Visit</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="stat-card">
+      <h2>450+</h2>
+      <p>Properties Sold</p>
+    </div>
+
+    <div class="stat-card">
+      <h2>120+</h2>
+      <p>Luxury Apartments</p>
+    </div>
+
+    <div class="stat-card">
+      <h2>15</h2>
+      <p>Years Experience</p>
+    </div>
+
+    <div class="stat-card">
+      <h2>98%</h2>
+      <p>Client Satisfaction</p>
+    </div>
+  </section>
+
+  <!-- PROPERTIES -->
+  <section id="properties" class="properties">
+    <div class="section-header">
+      <p class="section-tag">Featured Listings</p>
+      <h2>Top Properties</h2>
+    </div>
+
+    <div class="property-grid">
+
+      <div class="property-card">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop" alt="Property"/>
+
+        <div class="property-info">
+          <div class="property-top">
+            <h3>Skyline Penthouse</h3>
+            <span>$1.8M</span>
+          </div>
+
+          <p>Mumbai, India</p>
+
+          <div class="property-details">
+            <span>4 Beds</span>
+            <span>3 Baths</span>
+            <span>3200 sqft</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop" alt="Property"/>
+
+        <div class="property-info">
+          <div class="property-top">
+            <h3>Modern Villa</h3>
+            <span>$2.4M</span>
+          </div>
+
+          <p>Goa, India</p>
+
+          <div class="property-details">
+            <span>5 Beds</span>
+            <span>4 Baths</span>
+            <span>5000 sqft</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=1200&auto=format&fit=crop" alt="Property"/>
+
+        <div class="property-info">
+          <div class="property-top">
+            <h3>Minimal Apartment</h3>
+            <span>$920K</span>
+          </div>
+
+          <p>Bangalore, India</p>
+
+          <div class="property-details">
+            <span>3 Beds</span>
+            <span>2 Baths</span>
+            <span>1800 sqft</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="about-left">
+      <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop" alt="Interior"/>
+    </div>
+
+    <div class="about-right">
+      <p class="section-tag">Why Choose Us</p>
+
+      <h2>
+        Real Estate Built
+        Around Results
+      </h2>
+
+      <p>
+        Most agencies sell listings. We sell positioning, speed and trust.
+        Whether you're buying luxury property or investing for scale,
+        execution matters more than promises.
+      </p>
+
+      <ul>
+        <li>✔ Verified premium listings</li>
+        <li>✔ Fast paperwork processing</li>
+        <li>✔ Direct builder connections</li>
+        <li>✔ High ROI investment zones</li>
+      </ul>
+
+      <button class="primary-btn">Get Consultation</button>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="contact-box">
+
+      <div class="contact-text">
+        <p class="section-tag">Contact Us</p>
+
+        <h2>Ready To Find Your Next Property?</h2>
+
+        <p>
+          Book a free consultation with our team and access exclusive listings.
+        </p>
+      </div>
+
+      <form id="contactForm">
+
+        <input type="text" placeholder="Your Name" required/>
+
+        <input type="email" placeholder="Email Address" required/>
+
+        <input type="text" placeholder="Phone Number" required/>
+
+        <textarea placeholder="Tell us what property you're looking for"></textarea>
+
+        <button type="submit" class="primary-btn full-btn">
+          Submit Inquiry
+        </button>
+
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <h3>UrbanNest Realty</h3>
+    <p>Built for modern buyers and serious investors.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
